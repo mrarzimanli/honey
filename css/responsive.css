@@ -294,7 +294,7 @@
         text-align: center;
     }
     .footer-box h4 {
-        margin-left: -28px;
+        margin-left: -24px;
     }
     .footer-box li {
         max-width: none;
@@ -347,7 +347,7 @@
         padding: 10px 0;
     }
     .header-logo h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
     .primary-nav .header-contact ul li:last-child a i {
         display: flex;
@@ -369,12 +369,68 @@
         display: none;
     }
     #home-content .home {
-        padding: 60px 0;
+        padding-top: 60px;
     }
     .menu-bars span {
         margin: 2px 0;
     }
+    .who-we-are .who-we-are-box {
+        height: 350px;
+    } .who-we-are .who-we-are-box img {
+        width: 100px;
+        height: 100px;
+    }
     .stats .stat-box span {
         font-size: 52px;
+    }
+    .contact .contact-box h2 {
+        margin: 12px 0;
+    }
+    .contact .contact-box i {
+        font-size: 36px;
+    }
+    .product-box img {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .honey-box {
+        height: 280px;
+    }
+    .honey-box .box-text h3 {
+        margin-bottom: 15px;
+    }
+    .honey-box .box-text p {
+        margin-bottom: 15px;
+    }
+    .honey-box .box-text a {
+        margin-top: 15px;
+    }
+    .footer-box li {
+        margin-bottom: 8px;
+    }
+    #footer .content-wrapper {
+        padding-top: 30px;
+    }
+    #footer .section-curve {
+        margin-bottom: -1px;
+    }
+    .footer-box .contact-list i {
+        margin-right: 8px;
+    }
+    .footer-box .social-list a {
+        width: 30px;
+        height: 30px;
+    }
+    .footer-logo h1 {
+        font-size: 32px;
+    }
+    .products .section-curve:first-child {
+        margin-bottom: -1px;
+    }
+    .products .section-curve:last-child {
+        margin-top: -1px;
+    }
+    .who-we-are .section-curve {
+        margin-bottom: -1px;
     }
 }

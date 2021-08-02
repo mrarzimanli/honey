@@ -242,6 +242,7 @@ p {
     font-size: var(--section-sub-heading);
     font-family: var(--primary-font);
     margin-bottom: 20px;
+    width: 100%;
     text-transform: uppercase;
 }
 
