@@ -1742,36 +1742,3 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 .mobile-menu .mobile-nav li a:hover, .mobile-menu .mobile-nav li a.active {
     color: var(--primary-design-color);
 }
-
-.mobile-menu .mobile-socials {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    padding: 12px;
-    box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mobile-menu .mobile-socials li {
-    margin: 0 8px;
-}
-
-.mobile-menu .mobile-socials li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    font-size: 15px;
-    background: var(--primary-bg-color);
-    color: var(--primary-design-color);
-    box-shadow: 0 0 4px 0 rgb(223, 178, 139, 0.6);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
