@@ -50,6 +50,9 @@
     .menu-toggle, .header-logo, .header-contact {
         width: 33%;
     }
+    #home-content .home {
+        padding-top: 65px;
+    }
     #home-content .home .row {
         flex-direction: column-reverse;
     }
@@ -129,9 +132,6 @@
     .section-pattern-1, .section-pattern-2 {
         display: none;
     }
-    .stats {
-        padding: 60px 0 60px;
-    }
     .product-box {
         padding: 20px;
     }
@@ -152,6 +152,17 @@
     }
     .footer-box.social .footer-logo {
         margin: 0 0 0 50px;
+    }
+    /* About page */
+    #about-content .contact {
+        margin-top: 100px;
+        margin-bottom: -100px;
+    }
+    .technology {
+        padding-top: 200px;
+    }
+    .technology .video-box img {
+        height: 450px;
     }
 }
 
@@ -200,16 +211,24 @@
     }
     .contact .contact-box {
         max-width: 400px;
+        width: 90%;
         margin: 0 auto;
         padding: 40px;
+    }
+    .who-we-are .content-wrapper {
+        padding-bottom: 90px;
     }
     .who-we-are .who-we-are-box {
         padding: 40px;
         max-width: 400px;
+        width: 90%;
         margin: 0 auto;
     }
     .stats {
         background-size: 10% auto;
+    }
+    .stats::before {
+        display: none;
     }
     .stats .stat-box.box-2 {
         border: none;
@@ -220,10 +239,28 @@
     .product-box {
         padding: 40px;
         max-width: 400px;
+        width: 90%;
         margin: 0 auto;
     }
     .honey-box {
         width: 100%;
+    }
+    /* About page */
+    #about-content .about .section-info {
+        max-width: none;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    #about-content .contact {
+        margin: 0;
+        padding: 60px 0 90px;
+    }
+    .technology {
+        padding-top: 90px;
+    }
+    .advantages .col-lg-3:nth-child(2) .advantage-box {
+        border-right: none;
     }
 }
 
@@ -277,18 +314,26 @@
         padding: 50px 0;
     }
     #home-content .about {
-        background-image: url('../img/pattern/about-bg-left.png'), url('../img/pattern/hexagon-5.png'), url('../img/pattern/bee-dots-reverse.png');
-        background-position: top left, top right, bottom right;
-        background-repeat: no-repeat;
         background-size: 45% auto, 25% auto, 15% auto;
-        margin-top: 60px;
+        padding: 50px 0;
+    }
+    .stats {
+        margin-top: 70px;
+        padding: 0;
+    }
+    .products {
+        margin-top: 70px;
     }
     .types-of-honey {
+        margin-top: 70px;
         background-size: 10% auto, 10% auto, 15% auto;
     }
     .honey-box .box-text {
         width: 100%;
         text-align: right;
+    }
+    #footer {
+        margin-top: 70px;
     }
     .footer-box {
         text-align: center;
@@ -304,6 +349,55 @@
     }
     .footer-box.social .footer-logo {
         margin: 15px 0 0;
+    }
+    .copyright {
+        margin-top: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+    /* About Page */
+    #about-content .about .section-img {
+        background-size: 15% auto;
+        background-position: 5% 5%, 95% 95%;
+    }
+    #about-content .about .section-img img {
+        width: 65%;
+    }
+    #about-content .contact {
+        padding: 50px 0 70px;
+    }
+    #about-content .about .section-info {
+        padding-top: 20px;
+    }
+    .technology {
+        padding-top: 70px;
+    }
+    .technology .video-box {
+        max-width: 400px;
+        width: 90%;
+    }
+    .technology .video-box img {
+        height: 300px;
+    }
+    .technology .video-box a {
+        width: 60px;
+        height: 60px;
+    }
+    .technology .video-box a i {
+        font-size: 22px;
+    }
+    #about-content .stats {
+        margin-top: 200px;
+        padding-bottom: 30px;
+    }
+    .advantages {
+        margin-top: 70px;
+    }
+    .advantages .advantage-box {
+        border: none !important;
+    }
+    .advantage-box h5 {
+        margin-top: 25px;
     }
 }
 
@@ -377,6 +471,9 @@
     .menu-bars span {
         margin: 2px 0;
     }
+    .who-we-are .content-wrapper {
+        padding-bottom: 70px;
+    }
     .who-we-are .who-we-are-box {
         height: 350px;
     }
@@ -444,9 +541,15 @@
     .who-we-are .section-curve {
         margin-bottom: -1px;
     }
-    .copyright {
-        margin-top: 25px;
-        padding: 20px 0;
-        text-align: center;
+    /* About Page */
+    .technology .section-curve {
+        width: 100%;
+        height: 25px;
+        margin-top: -1px;
+    }
+    .technology .section-curve img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }

@@ -420,6 +420,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 }
 
 .header-logo h1 span {
+    position: relative;
     color: var(--primary-design-color);
     margin-left: 1px;
 }
@@ -599,7 +600,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
     background-position: top left, top right, bottom right;
     background-repeat: no-repeat;
     background-size: 21% auto, 200px auto, 150px auto;
-    margin-top: 60px;
+    padding: 60px 0;
 }
 
 #home-content .about .section-info {
@@ -617,10 +618,6 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 /* ==============================
             Who we are
 ============================== */
-
-.who-we-are {
-    margin-top: 30px;
-}
 
 .who-we-are .content-wrapper {
     position: relative;
@@ -688,7 +685,8 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
     background-repeat: no-repeat;
     background-position: 3% 40%;
     background-size: 6% auto;
-    padding: 90px 0 60px;
+    margin-top: 90px;
+    padding-bottom: 60px;
 }
 
 .stats::before {
@@ -744,7 +742,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 ============================== */
 
 .products {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .products .content-wrapper {
@@ -821,11 +819,11 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 
 .types-of-honey {
     position: relative;
-    margin-top: 90px;
     background: url('../img/pattern/double-circle.png'), url('../img/pattern/curve-and-dots-reverse.png'), url('../img/pattern/hexagon-3.png');
     background-position: top left, top right, bottom right;
     background-repeat: no-repeat;
     background-size: 6% auto, 11% auto, 200px auto;
+    margin-top: 90px;
 }
 
 .types-of-honey .content-wrapper {
@@ -1125,7 +1123,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 
 .technology .video-box img {
     width: 100%;
-    max-height: 660px;
+    height: 600px;
     object-position: center;
     object-fit: cover;
     border-radius: 60px;
@@ -1169,7 +1167,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 }
 
 #about-content .stats {
-    padding-top: 175px;
+    margin-top: 175px;
 }
 
 #about-content .who-we-are .section-pattern-1 {
@@ -1188,11 +1186,15 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 }
 
 .advantages {
-    padding-top: 90px;
+    margin-top: 90px;
 }
 
 .advantage-box {
-    padding: 30px;
+    height: 100%;
+    padding: 12px;
+}
+
+.advantages .col-lg-3:not(:last-child) .advantage-box {
     border-right: 1px solid #E5E5E5;
 }
 
@@ -1741,4 +1743,38 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 
 .mobile-menu .mobile-nav li a:hover, .mobile-menu .mobile-nav li a.active {
     color: var(--primary-design-color);
+}
+
+/* ==============================
+        404 page
+============================== */
+
+.not-found {
+    padding: 30px 0;
+}
+
+.not-found .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.not-found h2 {
+    font-size: var(--section-heading-sm);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.not-found h2 span {
+    color: var(--primary-design-color);
+}
+
+.not-found p {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
+    margin-bottom: 35px;
 }
