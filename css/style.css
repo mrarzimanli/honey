@@ -802,9 +802,10 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 
 .product-box span {
     display: block;
-    font-weight: 800;
+    font-weight: 900;
     font-family: var(--secondary-font);
     margin-bottom: 20px;
+    font-size: var(--font-size-xl);
 }
 
 .product-box span del {
@@ -1247,7 +1248,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 
 #products-content .products {
     margin: 0;
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 /* ==============================
@@ -1255,7 +1256,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 ============================== */
 
 .gallery {
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .gallery-box {
@@ -1327,7 +1328,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 ============================== */
 
 .blog {
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 .blog-box {
@@ -1394,7 +1395,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
     padding: 5px 10px;
     font-weight: 500;
     background: #fafafa;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -1424,7 +1425,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 ============================== */
 
 .blog-inner {
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 .blog-inner-box {
@@ -1477,7 +1478,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 ============================== */
 
 #contact-content .contact {
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 /* ==============================
@@ -1566,7 +1567,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 .product-info .product-text h2 {
     font-size: var(--block-heading-md);
     font-weight: 600;
-    margin: 20px 0;
+    margin: 20px 0 15px;
 }
 
 .product-info .product-text span {
@@ -1634,10 +1635,6 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 
 .related-products {
     padding: 30px 0;
-}
-
-.related-products .product-box {
-    padding: 30px;
 }
 
 .related-products .product-box h3 {
@@ -1750,7 +1747,7 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 ============================== */
 
 .not-found {
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 .not-found .content-wrapper {

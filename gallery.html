@@ -21,31 +21,56 @@
     <header id="header" class="primary-header">
         <div class="container">
             <nav class="primary-nav">
-                <a href="index.html" class="header-logo">
-                    <!-- <img src="img/logo/logo-primary.svg" alt=""> -->
-                    <h1>arı<span>CI</span></h1>
-                </a>
-                <div class="header-menu">
+                <div class="menu-toggle d-xl-none">
+                    <div class="menu-bars">
+                        <span class="bar-1"></span>
+                        <span class="bar-2"></span>
+                        <span class="bar-3"></span>
+                    </div>
+                </div>
+                <div class="header-logo">
+                    <a href="index.html" class="d-block">
+                        <!-- <img src="img/logo/logo-primary.svg" alt=""> -->
+                        <h1>arı<span>CI</span></h1>
+                    </a>
+                </div>
+                <div class="header-menu d-none d-xl-block">
                     <ul>
                         <li><a href="index.html">Ana səhifə</a></li>
                         <li><a href="about.html">Haqqımızda</a></li>
                         <li><a href="products.html">Məhsullar</a></li>
-                        <li><a href="gallery.html" class="active">Qalereya</a></li>
+                        <li><a class="active" href="gallery.html">Qalereya</a></li>
                         <li><a href="blog.html">Bloq</a></li>
                         <li><a href="contact.html">Əlaqə</a></li>
                     </ul>
                 </div>
                 <div class="header-contact">
                     <ul>
-                        <li>
-                            <a href="#"><i class="fas fa-map-marker-alt"></i>Lorem ipsum, dolor sit amet consectetur.</a>
+                        <li class="d-none d-xl-block">
+                            <a href="#">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Lorem ipsum, dolor sit amet consectetur.</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="tel:+994703331872"><i class="fas fa-phone-alt"></i>+994703331872</a>
+                            <a href="tel:+994703331872">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+994703331872</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            <div class="mobile-menu">
+                <ul class="mobile-nav">
+                    <li><a href="index.html">Ana səhifə</a></li>
+                    <li><a href="about.html">Haqqımızda</a></li>
+                    <li><a href="products.html">Məhsullar</a></li>
+                    <li><a class="active" href="gallery.html">Qalereya</a></li>
+                    <li><a href="blog.html">Bloq</a></li>
+                    <li><a href="contact.html">Əlaqə</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main id="gallery-content">
@@ -68,35 +93,35 @@
         </section>
         <section class="gallery">
             <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-4">
+                <div class="row gy-4">
+                    <div class="col-md-6 col-xl-4">
                         <a href="img/gallery/gallery-item-1.png" class="gallery-box img" data-fancybox="gallery">
                             <img src="img/gallery/gallery-item-1.png" alt="">
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <a href="img/gallery/gallery-item-2.png" class="gallery-box img" data-fancybox="gallery">
                             <img src="img/gallery/gallery-item-2.png" alt="">
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <a href="img/gallery/gallery-item-3.png" class="gallery-box img" data-fancybox="gallery">
                             <img src="img/gallery/gallery-item-3.png" alt="">
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <a href="https://youtu.be/8z-27EJcMxc" class="gallery-box video" data-fancybox="gallery">
                             <img src="img/gallery/gallery-item-4.png" alt="">
                             <span><i class="fas fa-play"></i></span>
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <a href="https://youtu.be/8z-27EJcMxc" class="gallery-box video" data-fancybox="gallery">
                             <img src="img/gallery/gallery-item-3.png" alt="">
                             <span><i class="fas fa-play"></i></span>
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <a href="https://youtu.be/8z-27EJcMxc" class="gallery-box video" data-fancybox="gallery">
                             <img src="img/gallery/gallery-item-2.png" alt="">
                             <span><i class="fas fa-play"></i></span>
@@ -112,8 +137,8 @@
         </div>
         <div class="content-wrapper">
             <div class="container container-md">
-                <div class="row g-5">
-                    <div class="col-lg-4">
+                <div class="row gy-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="footer-box">
                             <h4>Menu</h4>
                             <ul class="menu-list">
@@ -125,7 +150,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="footer-box">
                             <h4>Contact info</h4>
                             <ul class="contact-list">
@@ -144,26 +169,28 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="footer-box">
-                            <h4>Socials</h4>
-                            <ul class="social-list">
-                                <li>
-                                    <a href="https://facebook.com/" target="_blank">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://instagram.com/" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://youtube.com/" target="_blank">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                    <div class="col-md-12 col-xl-4">
+                        <div class="footer-box social">
+                            <div>
+                                <h4>Socials</h4>
+                                <ul class="social-list">
+                                    <li>
+                                        <a href="https://facebook.com/" target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://youtube.com/" target="_blank">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="footer-logo">
                                 <a href="index.html">
                                     <!-- <img src="img/logo/logo-primary.svg" alt=""> -->
