@@ -1,3 +1,8 @@
+$(window).on('load', function () {
+    $('.preloader img').fadeOut();
+    $('.preloader').delay(400).fadeOut();
+});
+
 $(function () {
     // Responsive 
     if ($(window).width() <= 1200) {

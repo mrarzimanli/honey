@@ -182,6 +182,10 @@
         --font-size-lg: 16px;
         --font-size-xl: 18px;
     }
+    .preloader img {
+        width: 140px;
+        height: 140px;
+    }
     .section-info p {
         margin: 16px 0 32px;
     }
@@ -476,6 +480,10 @@
         --font-size-md: 14px;
         --font-size-lg: 15px;
         --font-size-xl: 17px;
+    }
+    .preloader img {
+        width: 120px;
+        height: 120px;
     }
     .btn-general.order:hover i {
         animation: none;
