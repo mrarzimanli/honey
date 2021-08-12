@@ -821,16 +821,18 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
 
 .product-box span {
     display: block;
-    font-weight: 900;
+    font-weight: 800;
     font-family: var(--secondary-font);
+    font-size: var(--block-heading-sm);
+    color: var(--primary-design-color);
     margin-bottom: 20px;
-    font-size: var(--font-size-xl);
 }
 
 .product-box span del {
-    margin-right: 10px;
     color: var(--tertiary-text-color);
-    font-weight: 600;
+    font-weight: 700;
+    font-size: var(--font-size-lg);
+    margin-right: 10px;
 }
 
 /* ==============================
@@ -1593,13 +1595,16 @@ a, .primary-nav, .contact-box, .blog-box h2, .menu-bars span {
     display: block;
     font-weight: 800;
     font-family: var(--secondary-font);
-    font-size: var(--block-heading-sm);
+    font-size: var(--block-heading-lg);
+    color: var(--primary-design-color);
     margin-bottom: 20px;
 }
 
 .product-info .product-text span del {
+    font-weight: 700;
     margin-right: 10px;
     color: var(--tertiary-text-color);
+    font-size: var(--block-heading-sm);
 }
 
 .product-info .product-text p {
