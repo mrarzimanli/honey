@@ -4,6 +4,8 @@ $(window).on('load', function () {
 });
 
 $(function () {
+    $curYear = new Date().getFullYear()
+    $('#year').text($curYear);
     // Responsive 
     if ($(window).width() <= 1200) {
         $('.gx-5').removeClass('gx-5').addClass('gx-4');
